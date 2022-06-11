@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metas  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R 7</title>
+    <!-- LINK Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- LINK Font-Family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Rubik';background-color:hsl(226, 43%, 10%)"class="">
+    <!-- d-flex align-items-center justify-content-center -->
+        <!-- 
+        ### Primary
+        - Blue: hsl(246, 80%, 60%)
+
+        - Light red (work): hsl(15, 100%, 70%)
+        - Soft blue (play): hsl(195, 74%, 62%)
+        - Light red (study): hsl(348, 100%, 68%)
+        - Lime green (exercise): hsl(145, 58%, 55%)
+        - Violet (social): hsl(264, 64%, 52%)
+        - Soft orange (self care): hsl(43, 84%, 65%)
+
+        ### Neutral
+        - Very dark blue: hsl(226, 43%, 10%)
+        - Dark blue: hsl(235, 46%, 20%)
+        - Desaturated blue: hsl(235, 45%, 61%)
+        - Pale Blue: hsl(236, 100%, 87%) 
+        -->
+    <div class="container mt-4">
+        <div class="row">
+           <div class="col-md-3">
+            <!-- card prinsipal -->
+            <div class="card border-0 rounded-4"
+            style="background:hsl(235, 46%, 20%)">
+                <div class="card-header text-white rounded-4"style="background:hsl(246, 80%, 60%)">
+                    <img src="./images/image-jeremy.png"class="mt-3 border border-2 border-white rounded-circle"width="60" alt="">
+                    <h3 class="fs-6 mt-4">Report for</h3>
+                    <h1>Jeremy Ropson</h1>
+                </div>
+                <div class="card-body text-white rounded-4"style="background:hsl(235, 46%, 20%)">
+                    <p>daily</p>
+                    <p>Weekly</p>
+                    <p>Monthly</p>
+                </div>  
+              </div>
+           </div>
+           <div class="col-md-9">
+            <!-- card secundarias -->
+            <div class="row">
+                <!-- 1ra card -->
+                <div class="col-md-4">
+                    <div class="card rounded-4 border-0 position-relative"style="background:hsl(15, 100%, 70%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-work.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 position-relative text-white mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline ">Work</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>32hrs</h2>
+                            <p class="card-text">last Week - 36hrs</p>
+                        </div>  
+                    </div>
+                </div>
+                <!-- 2da card -->
+                <div class="col-md-4">
+                    <div class="card rounded-4 border-0 position-relative"style="background:hsl(195, 74%, 62%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-play.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 text-white position-relative mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline">Play</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>10hrs</h2>
+                            <p class="card-text">last Week - 8hrs</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 3ra card  -->
+                <div class="col-md-4">
+                    <div class="card rounded-4 position-relative border-0"style="background:hsl(348, 100%, 68%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-study.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 text-white position-relative mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline ">Study</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>4hrs</h2>
+                            <p class="card-text">last Week - 7hrs</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 4ta card -->
+                <div class="col-md-4 mt-4">
+                    <div class="card rounded-4 position-relative border-0"style="background:hsl(145, 58%, 55%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-exercise.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 text-white position-relative mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline ">Exercise</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>4hrs</h2>
+                            <p class="card-text">last Week - 5hrs</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 5ta card -->
+                <div class="col-md-4 mt-4">
+                    <div class="card rounded-4 position-relative border-0"style="background:hsl(264, 64%, 52%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-social.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 text-white position-relative mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline ">Social</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>5hrs</h2>
+                            <p class="card-text">last Week - 10hrs</p>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 6ta card -->
+                <div class="col-md-4 mt-4">
+                    <div class="card rounded-4 position-relative border-0"style="background:hsl(43, 84%, 65%)">
+                        <img  class="position-absolute top-0 end-0 me-2 mt-1" src="./images/icon-self-care.svg">
+                        <!-- card body  -->
+                        <div class="card-body rounded-4 text-white position-relative mt-5"style="background:hsl(235, 46%, 20%)">
+                            <h5 class="card-title d-inline ">Self Care</h5>
+                            <span 
+                            class="position-absolute top-0 end-0 me-4 mt-3" >
+                                <img src="./images/icon-ellipsis.svg"></img>
+                            </span>
+                            <h2>2hrs</h2>
+                            <p class="card-text">last Week - 2hrs</p>
+                        </div>
+                    </div> 
+                </div>
+             </div>
+           </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+
+</script>
+</body>
+</html>
